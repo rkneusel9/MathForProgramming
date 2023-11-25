@@ -1,2 +1,3 @@
 # MathForProgramming
-Source code for the No Starch Press book Math for Programming
+Source code for the book "Math for Programming" (No Starch Press)
+
