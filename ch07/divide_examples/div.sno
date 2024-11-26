@@ -1,0 +1,7 @@
+* SNOBOL4 -- see www.snobol4.com
+    output = 33 "  " 7 "  " (33 / 7) "  " REMDR(33,7)
+    output = -33 "  " 7 "  " (-33 / 7) "  " REMDR(-33,7)
+    output = 33 "  " -7 "  " (33 / -7) "  " REMDR(33,-7)
+    output = -33 "  " -7 "  " (-33 / -7) "  " REMDR(-33,-7)
+end
+
