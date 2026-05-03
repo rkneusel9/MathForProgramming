@@ -262,7 +262,7 @@ def NaiveModularInverse(a,n):
     """Naive search for the inverse of a mod n"""
     if (GCD(a,n) != 1):
         return None
-    for i in range(0,n-1):
+    for i in range(0,n):
         if ((a*i) % n) == 1:
             return i
 
