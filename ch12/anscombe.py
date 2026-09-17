@@ -24,7 +24,7 @@ d[:,1] = y1
 d[:,2] = y2
 d[:,3] = y3
 
-plt.boxplot(d, showmeans=True, labels=['$y_0$','$y_1$','$y_2$','$y_3$'])
+plt.boxplot(d, showmeans=True, tick_labels=['$y_0$','$y_1$','$y_2$','$y_3$'])
 plt.tight_layout(pad=0, w_pad=0, h_pad=0)
 plt.savefig("anscombe_box.eps", dpi=300)
 plt.show()

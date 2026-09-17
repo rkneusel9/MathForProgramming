@@ -27,7 +27,7 @@ ds = np.zeros((N,2))
 ds[:,0] = control
 ds[:,1] = treatment
 
-plt.boxplot(ds, showmeans=True, labels=['Control','Treatment'])
+plt.boxplot(ds, showmeans=True, tick_labels=['Control','Treatment'])
 plt.tight_layout(pad=0, w_pad=0, h_pad=0)
 plt.savefig("memory_boxplot_single.eps", dpi=300)
 plt.close()
