@@ -16,7 +16,7 @@
 
 import sys
 import numpy as np
-from matplotlib import cm
+from matplotlib import colormaps
 from PIL import Image
 
 
@@ -27,9 +27,9 @@ def Mandelbrot(x0,x1,xinc, y0,y1,yinc, nmax, cname):
     """Generate a collection of Mandelbrot points and colors"""
 
     try:
-        cmap = cm.get_cmap(cname)
+        cmap = colormaps.get_cmap(cname)
     except:
-        cmap = cm.get_cmap("inferno")
+        cmap = colormaps.get_cmap("inferno")
     
     X = []
     Y = []

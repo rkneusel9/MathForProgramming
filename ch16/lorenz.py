@@ -2,7 +2,7 @@
 import sys
 import numpy as np
 import matplotlib.pylab as plt
-from matplotlib import cm
+from matplotlib import colormaps
 
 # Lorenz's original values:
 s,r,b = 10, 28, 8/3
@@ -37,7 +37,7 @@ if (len(sys.argv) == 1):
 
 x0,y0,z0 = [float(i) for i in sys.argv[1].split(",")]
 n, h = int(sys.argv[2]), float(sys.argv[3])
-cmap = cm.get_cmap(sys.argv[4])
+cmap = colormaps.get_cmap(sys.argv[4])
 mode = sys.argv[5].lower()
 
 #  points and initial position
